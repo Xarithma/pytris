@@ -319,7 +319,7 @@ def draw_window(surface, grid, score=0, last_score=0):
     # --- Top title text START ---
     pygame.font.init()
     font = pygame.font.SysFont('Noto Sans', 48)
-    label = font.render('Totros', 1, (255, 255, 255))
+    label = font.render('Pytris', 1, (255, 255, 255))
 
     surface.blit(label, (top_left_x + play_width / 2 -
                          (label.get_width() / 2), 15))
@@ -504,7 +504,7 @@ def main_menu():
 # TODO: Remove the double parenties.
 # Window for the game startup.
 win = pygame.display.set_mode((s_width, s_height))
-pygame.display.set_caption('Totros')
+pygame.display.set_caption('Pytris')
 
 # Game startup
 main_menu()
