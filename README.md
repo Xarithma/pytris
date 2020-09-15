@@ -5,8 +5,6 @@ It's not finished yet, and there might be some bugs to it.
 
 ## Instructions
 
-### Dependencies
-
 **Windows**
 1. Get [Python 3](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe)
 2. Get Pip
